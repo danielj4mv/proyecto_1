@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  tfx:
+    image: tensorflow/tfx:1.12.0
+    container_name: tfx
+    ports:
+      - "8888:8888"  # Puerto para Jupyter
+      - "6006:6006"  # Puerto para TensorBoard (opcional)
+    volumes:
+      - .:/tfx/src  # Monta el directorio actual en el contenedor
+    entrypoint: /run_jupyter.sh
+    command: ["--allow-root", "--ip=0.0.0.0"] 
