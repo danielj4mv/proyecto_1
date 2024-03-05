@@ -32,6 +32,7 @@
    ```
    http://127.0.0.1:8888/lab?token=88c9532495290c438a1af2af916dfcd6c4ebdd9b504bf63b
    ```
+   Desde la interfaz de jupyterlab se podrá visualizar y ejecutar el notebook `proyecto_1.ipynb` que contiene el desarrollo correspondiente al proyecto 1, puede que los gráficos generados estén desconfigurados, por lo que es mejor correr nuevamente todo el notebook
 3. **En caso de que el contenedor no se esté ejecutando, para poder acceder al entorno siga estos pasos:**
    ```
    sudo docker stop tfx
