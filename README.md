@@ -20,8 +20,14 @@
    docker compose up
    ```
 6. **Una vez se ha terminado de ejecutar el comando anterior, en las últimas líneas se muestra como acceder a la interfaz de jupyterlab expuesta en el puerto 8888. Acceder a cualquiera de los elaces proporcionados desde su navegador de preferencia**
-7. **Una vez dentro, desde la interfaz de jupyterlab se pide un token de acceso el cual fue proporcionado junto al enlace. Copiar y pegar este token en el espacio requerido para acceder**
-8. **Desde la interfaz en jupyterlab se puede acceder al notebook `proyecto_1.ipynb` con el desarrollo correspondiente al proyecto 1**
+
+   ![links](/images/links.png)
+
+8. **Desde la interfaz en jupyterlab se puede acceder al notebook `proyecto_1.ipynb` con el desarrollo correspondiente al proyecto 1, puede que los gráficos generados estén desconfigurados, por lo que es mejor correr nuevamente todo el notebook para visualizar correctamente la entrega**
+
+   ![notebook](/images/notebook.png)
+
+---
 
 ## Guía para visualizar la entrega en la máquina virtual
 1. **Conectarse a la máquina virtual del grupo 8 por vpn usando ssh**
